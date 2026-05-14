@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0f1f" />
+  <title>eBarga AI Payment</title>
+  <link rel="icon" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+</head>
+<body data-page="payment" onload="bootPayment()">
+  <header class="topbar shell">
+    <a class="brand" href="index.html">
+      <img src="logo.png" alt="eBarga AI logo" class="brand-logo" />
+      <span>eBarga AI</span>
+    </a>
+    <nav class="nav">
+      <a href="features.html">Features</a>
+      <a href="contact.html">Contact</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="card hero compact">
+      <p class="eyebrow">Secure subscription checkout</p>
+      <h1>Choose a payment method</h1>
+      <p class="lead">Use the Binance Pay button first. Other methods are available through support.</p>
+    </section>
+
+    <section class="grid-2 mt-24">
+      <article class="card">
+        <h2 class="section-title">Payment steps</h2>
+        <ol class="steps">
+          <li>Click <strong>Binance Pay</strong>.</li>
+          <li>Complete the payment on the official merchant page or QR flow.</li>
+          <li>Return here and send your transaction reference through support for verification.</li>
+          <li>After verification, your 30-day access is activated.</li>
+        </ol>
+      </article>
+
+      <article class="card">
+        <h2 class="section-title">Payment methods</h2>
+        <div class="payment-stack">
+          <button class="btn btn-primary" type="button" onclick="openBinancePay()">Binance Pay</button>
+          <button class="btn btn-soft" type="button" onclick="goToContact()">Other payment methods? Contact us</button>
+          <button class="btn btn-ghost" type="button" onclick="goToContact()">Need help?</button>
+        </div>
+        <p class="subnote">If you face any issues, contact us.</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
