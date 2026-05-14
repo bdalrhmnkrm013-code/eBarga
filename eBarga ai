@@ -1,1 +1,79 @@
-eBarga ai
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="eBarga AI — crypto signals, AI assistant, and subscription tools." />
+  <meta name="theme-color" content="#0a0f1f" />
+  <title>eBarga AI</title>
+  <link rel="icon" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+</head>
+<body data-page="home" onload="bootHome()">
+  <header class="topbar shell">
+    <a class="brand" href="index.html">
+      <img src="favicon.png" alt="eBarga AI logo" class="brand-logo" />
+      <span>eBarga AI</span>
+    </a>
+    <nav class="nav">
+      <a href="features.html">Features</a>
+      <a href="payment.html">Payment</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="hero card">
+      <p class="eyebrow">Crypto intelligence • Smart signals • AI chat</p>
+      <h1>Trade with clarity. Track momentum. Ask eBarga.</h1>
+      <p class="lead">
+        A clean crypto dashboard with live market scans, subscription access, and an AI assistant built for fast decisions.
+      </p>
+
+      <div class="actions">
+        <button class="btn btn-ghost" type="button" onclick="startDemo()">Free Demo</button>
+        <button class="btn btn-primary" type="button" onclick="goToPayment()">Subscribe Now</button>
+        <button class="btn btn-soft" type="button" onclick="goToContact()">Contact Us</button>
+      </div>
+
+      <p class="subnote">Having issues? Contact us for support.</p>
+    </section>
+
+    <section class="grid-2 mt-24">
+      <article class="card">
+        <h2 class="section-title">Why users stay</h2>
+        <ul class="checklist">
+          <li>Fast market snapshots</li>
+          <li>Simple risk management tools</li>
+          <li>Mobile-friendly layout</li>
+          <li>Premium subscription flow</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2 class="section-title">Quick preview</h2>
+        <div class="mini-stats">
+          <div><strong>24h</strong><span>Market scan</span></div>
+          <div><strong>AI</strong><span>Chat assistant</span></div>
+          <div><strong>30d</strong><span>Subscription</span></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="mt-24">
+      <h2 class="section-title center">Community notes</h2>
+      <div class="grid-2">
+        <article class="review card">
+          <p>“The dashboard feels premium and easy to use.”</p>
+          <span>— User review</span>
+        </article>
+        <article class="review card">
+          <p>“The layout works well on mobile and desktop.”</p>
+          <span>— User review</span>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
