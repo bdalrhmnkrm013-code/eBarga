@@ -1,2 +1,0 @@
-# eBarga
-Saas project
